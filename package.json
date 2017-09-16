@@ -1,0 +1,35 @@
+{
+  "name": "joekentdotnyc",
+  "version": "1.0.0",
+  "description": "joekent.nyc",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjoekent/joekentdotnyc.git"
+  },
+  "author": "Joe Kent <hey@joekent.nyc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsjoekent/joekentdotnyc/issues"
+  },
+  "homepage": "https://github.com/itsjoekent/joekentdotnyc#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "css-mqpacker": "^6.0.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
