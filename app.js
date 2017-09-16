@@ -7,8 +7,8 @@ function sizeCanvas() {
   const { innerWidth, innerHeight } = window;
   const { availWidth, availHeight } = screen;
 
-  canvas.width = screen.availWidth;
-  canvas.height = screen.availHeight;
+  canvas.width = Math.min(innerWidth, availWidth);
+  canvas.height = Math.min(innerHeight, availHeight);
 }
 sizeCanvas();
 
